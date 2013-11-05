@@ -1,1 +1,17 @@
 /* Stylesheet */
+
+.home {
+	background: grey;
+}
+
+.gallery {
+	background: orange;
+}
+
+/* Nav */
+
+.home nav li:nth-child(1), .gallery nav li:nth-child(2){
+	font-weight: bold;
+	font-size: 2em;
+	text-shadow: 2px 2px 0 green;
+}
